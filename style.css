@@ -1,0 +1,147 @@
+*{
+    margin:0%;
+    box-sizing: border-box;
+}
+.nav{
+    display:flex;
+    height:10vh;
+    justify-content:center;
+    align-items: center;
+    color:whitesmoke;
+}
+.one{
+height:70%;
+width:20%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.two{
+height:70%;
+width:20%;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.a:hover
+{
+    border:1px solid grey ;
+}
+h4{
+    font-size: x-large;
+    margin: 10px; 
+}    
+a{
+    animation-name: anim;
+    animation-duration:0.4s;
+    animation-iteration-count: infinite;
+    color:rgba(137, 43, 226, 0);
+    
+}
+span{
+    animation-name: ani;
+    animation-duration:0.2s;
+    animation-iteration-count: infinite;
+    color:rgba(137, 43, 226, 0);
+    font-size: x-large;
+}
+@keyframes ani {
+    from{   color:rgba(137, 43, 226, 0)}
+    to{color:red}
+}
+@keyframes anim {
+    from{color:rgba(137, 43, 226, 0)}
+    to{color:olivedrab}
+}
+body{
+    background-image: url("https://www.spacetec.partners/wp-content/uploads/2019/01/hero-image-1366px.jpg");
+}
+header{
+    text-align: center;
+    color:white;
+}
+h2{
+    color:pink;
+}
+.map{
+  width:50vw;
+  height:75vh;
+  background-image: url("image.png");
+  padding: 5%;
+}
+.red{
+    width:4rem;
+    height:4rem;
+    background-color: rgba(255, 0, 0, 0.514);
+    border-radius:50%; 
+    margin: 0px 40px 0px 40px;
+}
+.abc{
+    display: flex;
+    justify-content: space-around;
+    margin:10px;
+}
+.ab{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.b{
+    display: flex;
+    justify-content: flex-end;
+}
+#abcd{
+    margin-left: 70px;
+}
+h3{
+    color:white;
+}
+li{
+    font-size: x-large;
+}
+.fle{
+    display:flex;
+}
+.chatbot{
+    height:5rem;
+    width:5rem;
+    border:2px solid white ;
+    border-radius: 50%;
+    margin:0px 40px 10px 0px;
+    background-image: url("https://img.freepik.com/premium-vector/chat-bot-vector-logo-design-concept_418020-241.jpg");
+    background-size: contain;
+}
+.hm{
+   display:flex;
+   justify-content: end;
+   
+
+}
+.writing{
+    background-color:rgba(163, 49, 173, 0.256);
+    width:40vw;
+    margin-left: 25px;
+    border-radius:10% 10% 0% 10%;
+    padding:20px;
+    display: none;
+}
+.options{
+    display:inline-block;
+    background-color:rgba(230, 227, 239, 0.349);
+    margin-bottom:8px;
+    font-size:large;
+    padding:4%;
+    border-radius:8%;
+}
+
+.optionthree{
+    margin-left:30%;
+}
+.optionfour{
+    margin-left:30%;
+}
+.open{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
